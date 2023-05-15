@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "basics-of-web"
+version = "0.1.0"
+description = ""
+authors = ["Alexandr Abramov <alexandr.abramovvv@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "basics_of_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
